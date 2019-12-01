@@ -19,7 +19,7 @@
     "commands": {
         "copy-text-with-url": {
             "suggested_key": {
-                "default": "Ctrl+Shift+9",
+                "default": "Ctrl+Shift+C",
                 "mac": "MacCtrl+Shift+C"
             },
             "description": "Call copyTextWithURL function",
