@@ -1,0 +1,26 @@
+{
+    "name": "Copy Text with URL",
+    "version": "1.0",
+    "description": "Copy current selected text and current URL",
+    "permissions": ["activeTab", "declarativeContent", "notifications"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "images/icon_128.png",
+            "32": "images/icon_128.png",
+            "48": "images/icon_128.png",
+            "128": "images/icon_128.png"
+        },
+        "default_title": "Copy Text with URL"
+    },
+    "icons": {
+        "16": "images/icon_128.png",
+        "32": "images/icon_128.png",
+        "48": "images/icon_128.png",
+        "128": "images/icon_128.png"
+    },
+    "manifest_version": 2
+}
