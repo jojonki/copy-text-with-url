@@ -17,12 +17,20 @@
         "default_title": "Copy Text with URL"
     },
     "commands": {
-        "copy-text-with-url": {
+        "copy-text-with-url-as-plain": {
             "suggested_key": {
                 "default": "Ctrl+Shift+C",
                 "mac": "MacCtrl+Shift+C"
             },
-            "description": "Call copyTextWithURL function",
+            "description": "Copy text with URL as plain text",
+            "global": false
+        },
+        "copy-text-with-url-as-markdown": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+M",
+                "mac": "MacCtrl+Shift+D"
+            },
+            "description": "Copy text with URL as markdown style",
             "global": false
         }
     },
