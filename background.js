@@ -21,7 +21,7 @@ function copyTextWithURL(tab) {
             let options = {
                 type: "basic",
                 iconUrl: "./images/icon_128.png",
-                title: "Copy Success with URL!",
+                title: "Copied with URL!",
                 message: "\"" + selected_text + "\"",
             }
             chrome.notifications.create('copy_with_text_notification', options);
