@@ -31,4 +31,17 @@ function copyTextWithURL(tab) {
     });
 }
 
+chrome.commands.onCommand.addListener(function(command) {
+    if (command === "copy-text-with-url") {
+        chrome.tabs.query({
+            active: true,
+            lastFocusedWindow: true
+        }, function(tabs) {
+            copyTextWithURL(tabs[0]);
+        });
+    } else {
+        alert("Unknown command: " + command);
+    }
+});
+
 chrome.browserAction.onClicked.addListener(copyTextWithURL);

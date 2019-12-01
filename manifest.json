@@ -16,6 +16,16 @@
         },
         "default_title": "Copy Text with URL"
     },
+    "commands": {
+        "copy-text-with-url": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+C",
+                "mac": "Command+Shift+9"
+            },
+            "description": "Toggle feature foo",
+            "global": true
+        }
+    },
     "icons": {
         "16": "images/icon_128.png",
         "32": "images/icon_128.png",
