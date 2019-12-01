@@ -2,7 +2,7 @@
     "name": "Copy Text with URL",
     "version": "1.0",
     "description": "Copy current selected text and current URL",
-    "permissions": ["tabs", "notifications", "<all_urls>"],
+    "permissions": ["activeTab", "notifications", "<all_urls>"],
     "background": {
         "scripts": ["background.js"],
         "persistent": false
