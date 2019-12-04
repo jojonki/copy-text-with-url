@@ -1,6 +1,6 @@
 {
     "name": "Copy Text with URL",
-    "version": "1.1",
+    "version": "1.1.1",
     "description": "Copy current selected text and current URL",
     "permissions": ["activeTab", "notifications"],
     "background": {
@@ -28,7 +28,7 @@
         "copy-text-with-url-as-markdown": {
             "suggested_key": {
                 "default": "Ctrl+Shift+M",
-                "mac": "MacCtrl+Shift+D"
+                "mac": "MacCtrl+Shift+M"
             },
             "description": "Copy text with URL as markdown style",
             "global": false
